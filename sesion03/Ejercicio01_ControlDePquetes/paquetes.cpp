@@ -19,7 +19,13 @@ void ingresarPesos(double* pesos, int cantidad)
 	for (int i = 0; i < cantidad; i++) {
 		cout << "Ingrese el peso #" << i + 1 << endl;
 		cin >> pesos[i];
+
+		while (pesos[i] <= 0) {
+			cout << "Peso invalido. Ingrese nuevamente: ";
+			cin >> pesos[i];
+		}
 	}
+	
 
 }
 
