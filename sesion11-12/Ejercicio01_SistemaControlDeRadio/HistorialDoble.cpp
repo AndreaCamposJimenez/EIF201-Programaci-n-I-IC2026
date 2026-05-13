@@ -26,7 +26,7 @@ namespace EIF201 {
         cout << "[HistorialDoble destruido]" << endl;
     }
 
-   
+
     void HistorialDoble::insertarAlInicio(const string& cancion) {
         NodoHistorial* nuevo = new NodoHistorial(cancion);
 
@@ -45,7 +45,7 @@ namespace EIF201 {
         cantidad++;
     }
 
-    
+
 
     void HistorialDoble::insertarAlFinal(const string& cancion) {
         NodoHistorial* nuevo = new NodoHistorial(cancion);
@@ -65,7 +65,7 @@ namespace EIF201 {
         cantidad++;
     }
 
-    
+
     void HistorialDoble::insertarEnPosicion(const string& cancion, int pos) {
 
         if (pos <= 0) {
@@ -97,7 +97,7 @@ namespace EIF201 {
 
         cantidad++;
     }
-   
+
 
     bool HistorialDoble::insertarAntesDe(const string& referencia, const string& nueva) {
 
@@ -369,3 +369,4 @@ namespace EIF201 {
     bool HistorialDoble::estaVacia() const {
         return cabeza == nullptr;
     }
+}
