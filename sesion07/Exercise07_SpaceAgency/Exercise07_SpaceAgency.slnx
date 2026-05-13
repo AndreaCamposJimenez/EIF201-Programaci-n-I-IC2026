@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Exercise07_SpaceAgency.vcxproj" />
+  <Project Path="../../../../../../EIF201-Programaci-n-I-IC2026/sesion07/Exercise07_SpaceAgency/Exercise07_SpaceAgency.vcxproj" Id="871e0ef0-0cf2-4de7-b6cf-8650c09d509b" />
 </Solution>

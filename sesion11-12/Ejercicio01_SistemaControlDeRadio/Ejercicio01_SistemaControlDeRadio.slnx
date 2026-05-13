@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Ejercicio01_SistemaControlDeRadio.vcxproj" Id="d06dd248-f9a5-47c5-8b28-62e729f97f00" />
+</Solution>
