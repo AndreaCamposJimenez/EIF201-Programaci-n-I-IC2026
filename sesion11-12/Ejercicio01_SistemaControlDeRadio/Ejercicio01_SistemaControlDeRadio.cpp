@@ -66,6 +66,13 @@ int main() {
         // Rotacion
         r.simularTurnos(7);
         // Esperado: Maria, Carlos, Elena, Adriana, Diego, Maria, Carlos
+        // Estadisticas de turnos
+
+        r.imprimirEstadisticas();
+
+        cout << "Locutor mas activo: "
+            << r.locutorMasActivo()
+            << endl;
 
         // Eliminacion
         r.eliminarLocutor("Carlos");

@@ -12,10 +12,11 @@ namespace EIF201 {
 
         string nombre;             
         NodoLocutor* siguiente;     // apunta al siguiente locutor en la rotación
+        int turnosAsignados;
 
         
         NodoLocutor(const string& n)
-            : nombre(n), siguiente(nullptr) {
+            : nombre(n), siguiente(nullptr), turnosAsignados(0) {
 
             cout << "[NodoLocutor creado: "
                 << n << "]" << endl;

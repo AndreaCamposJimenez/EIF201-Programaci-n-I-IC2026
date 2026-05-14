@@ -55,6 +55,10 @@ namespace EIF201 {
         // Imprime la rotación completa empezando desde la cabeza.
         void imprimirRotacion() const;
 
+        void imprimirEstadisticas() const;
+
+        string locutorMasActivo() const;
+
         int getCantidad() const;
         bool estaVacia() const;
     };
